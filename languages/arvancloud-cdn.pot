@@ -1,0 +1,914 @@
+# Copyright (C) 2022 Khorshid, ArvanCloud
+# This file is distributed under the GPL-3.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: ArvanCloud CDN 0.9.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-arvancloud-cdn\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2022-06-29T13:21:10+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.5.0\n"
+"X-Domain: arvancloud-cdn\n"
+
+#. Plugin Name of the plugin
+#: wp-arvancloud-cdn.php:29
+msgid "ArvanCloud CDN"
+msgstr ""
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://www.arvancloud.ir/en/products/cdn"
+msgstr ""
+
+#. Description of the plugin
+msgid "ArvanCloud CDN service caches your website content. Using this plugin, you will be able to purge and update the cached version, either manually or automatically, so that your users visit the latest version of your website at any time."
+msgstr ""
+
+#. Author of the plugin
+msgid "Khorshid, ArvanCloud"
+msgstr ""
+
+#: admin/class-setup-admin.php:117
+#: admin/class-setup-admin.php:132
+msgid "Please Wait"
+msgstr ""
+
+#: admin/class-setup-admin.php:118
+#: admin/class-setup-admin.php:133
+msgid "Request sent."
+msgstr ""
+
+#: admin/class-setup-admin.php:119
+#: admin/class-setup-admin.php:134
+msgid "Updated"
+msgstr ""
+
+#: admin/class-setup-admin.php:120
+#: admin/class-setup-admin.php:135
+msgid "Update failed"
+msgstr ""
+
+#: admin/class-setup-admin.php:136
+#: admin/views/security/firewall_settings.php:143
+msgid "+ AND"
+msgstr ""
+
+#: admin/class-setup-admin.php:141
+#: admin/class-setup-admin.php:147
+#: admin/class-setup-admin.php:153
+#: admin/class-setup-admin.php:163
+msgid "Equal"
+msgstr ""
+
+#: admin/class-setup-admin.php:142
+#: admin/class-setup-admin.php:148
+#: admin/class-setup-admin.php:154
+#: admin/class-setup-admin.php:164
+msgid "Not equal"
+msgstr ""
+
+#: admin/class-setup-admin.php:143
+#: admin/class-setup-admin.php:149
+#: admin/class-setup-admin.php:157
+#: admin/class-setup-admin.php:167
+msgid "Is in a set of:"
+msgstr ""
+
+#: admin/class-setup-admin.php:155
+#: admin/class-setup-admin.php:165
+msgid "Contains:"
+msgstr ""
+
+#: admin/class-setup-admin.php:156
+#: admin/class-setup-admin.php:166
+msgid "Matches regex"
+msgstr ""
+
+#: admin/class-setup-admin.php:158
+#: admin/class-setup-admin.php:168
+msgid "Starts with"
+msgstr ""
+
+#: admin/class-setup-admin.php:159
+#: admin/class-setup-admin.php:169
+msgid "Ends with"
+msgstr ""
+
+#: admin/class-setup-admin.php:174
+msgid "IP Source Address"
+msgstr ""
+
+#: admin/class-setup-admin.php:175
+msgid "Country"
+msgstr ""
+
+#: admin/class-setup-admin.php:176
+msgid "URI Path"
+msgstr ""
+
+#: admin/class-setup-admin.php:177
+msgid "Hostname"
+msgstr ""
+
+#: admin/class-setup-admin.php:180
+#: admin/views/security/firewall_settings.php:119
+msgid "Parameter"
+msgstr ""
+
+#: admin/class-setup-admin.php:181
+#: admin/views/security/firewall_settings.php:41
+#: admin/views/security/firewall_settings.php:120
+msgid "Operator"
+msgstr ""
+
+#: admin/class-setup-admin.php:182
+#: admin/views/security/firewall_settings.php:121
+msgid "Value"
+msgstr ""
+
+#: admin/class-setup-admin.php:209
+#: admin/class-setup-admin.php:210
+#: admin/views/settings-display.php:8
+msgid "CDN General Settings"
+msgstr ""
+
+#: admin/class-setup-admin.php:222
+#: admin/class-setup-admin.php:223
+#: admin/views/acceleration.php:19
+#: admin/views/acceleration.php:25
+msgid "Web Acceleration"
+msgstr ""
+
+#: admin/class-setup-admin.php:231
+#: admin/class-setup-admin.php:232
+#: admin/views/security/ddos_protection.php:22
+#: admin/views/security/ddos_protection.php:28
+msgid "DDoS Protection"
+msgstr ""
+
+#: admin/class-setup-admin.php:241
+#: admin/class-setup-admin.php:242
+#: admin/views/security/https_settings.php:26
+#: admin/views/security/https_settings.php:36
+msgid "HTTPS Settings"
+msgstr ""
+
+#: admin/class-setup-admin.php:250
+#: admin/class-setup-admin.php:251
+#: admin/views/security/firewall_settings.php:12
+msgid "Firewall"
+msgstr ""
+
+#: admin/class-setup-admin.php:259
+#: admin/views/cache/caching_settings.php:47
+msgid "Cache Level"
+msgstr ""
+
+#: admin/class-setup-admin.php:260
+#: admin/views/cache/caching_settings.php:41
+msgid "Caching Settings"
+msgstr ""
+
+#: admin/class-setup-admin.php:269
+#: admin/class-setup-admin.php:270
+msgid "CDN Reports"
+msgstr ""
+
+#: admin/class-setup-admin.php:278
+#: admin/class-setup-admin.php:279
+msgid "Status Analysis"
+msgstr ""
+
+#: admin/class-setup-admin.php:290
+#: admin/views/about-us-display.php:2
+msgid "About ArvanCloud"
+msgstr ""
+
+#: admin/class-setup-admin.php:291
+msgid "About"
+msgstr ""
+
+#: admin/class-setup-admin.php:320
+#: admin/class-setup-admin.php:323
+msgid "Clear Cache"
+msgstr ""
+
+#: admin/class-setup-admin.php:418
+#: admin/views/security/firewall_settings.php:88
+msgid "Active"
+msgstr ""
+
+#: admin/class-setup-admin.php:421
+msgid "Pending"
+msgstr ""
+
+#: admin/class-setup-admin.php:424
+msgid "Pending DNS changes"
+msgstr ""
+
+#: admin/class-setup-admin.php:427
+msgid "Pending CDN"
+msgstr ""
+
+#: admin/class-setup-admin.php:430
+#: admin/views/security/firewall_settings.php:51
+msgid "Disable"
+msgstr ""
+
+#: admin/class-setup-admin.php:443
+msgid "Basic"
+msgstr ""
+
+#: admin/class-setup-admin.php:446
+msgid "Growth"
+msgstr ""
+
+#: admin/class-setup-admin.php:449
+msgid "Professional"
+msgstr ""
+
+#: admin/class-setup-admin.php:452
+msgid "Enterprise"
+msgstr ""
+
+#: admin/helper.php:38
+msgid "Bytes"
+msgstr ""
+
+#: admin/helper.php:41
+msgid "Kilobyte"
+msgstr ""
+
+#: admin/helper.php:44
+msgid "Megabyte"
+msgstr ""
+
+#: admin/helper.php:47
+msgid "Gigabyte"
+msgstr ""
+
+#: admin/inc/API/Key/class-api-key.php:25
+#: admin/inc/CDN/Cache/class-caching-settings.php:55
+#: admin/inc/CDN/Cache/class-caching-settings.php:107
+#: admin/inc/CDN/Cache/class-page-rules.php:61
+#: admin/inc/CDN/Cache/class-page-rules.php:153
+#: admin/inc/CDN/class-acceleration.php:51
+#: admin/inc/CDN/class-cdn-options.php:62
+#: admin/inc/CDN/class-purge-cache.php:69
+#: admin/inc/Security/class-ddos_protection.php:72
+#: admin/inc/Security/class-firewall.php:246
+#: admin/inc/Security/class-https-settings.php:81
+msgid "ArvanCloud is not responding right now. please try again later."
+msgstr ""
+
+#: admin/inc/API/Key/class-api-key.php:31
+#: admin/inc/CDN/Cache/class-caching-settings.php:57
+#: admin/inc/CDN/Cache/class-caching-settings.php:113
+#: admin/inc/CDN/Cache/class-page-rules.php:67
+#: admin/inc/CDN/Cache/class-page-rules.php:155
+#: admin/inc/CDN/class-acceleration.php:53
+#: admin/inc/CDN/class-cdn-options.php:64
+#: admin/inc/CDN/class-purge-cache.php:75
+#: admin/inc/Security/class-ddos_protection.php:74
+#: admin/inc/Security/class-firewall.php:248
+#: admin/inc/Security/class-https-settings.php:83
+msgid "ArvanCloud API key is invalid. Please try again."
+msgstr ""
+
+#: admin/inc/API/Key/class-api-key.php:54
+#: admin/views/settings-display.php:15
+msgid "-- not shown --"
+msgstr ""
+
+#: admin/inc/API/Key/class-api-key.php:57
+msgid "Enter your API key"
+msgstr ""
+
+#: admin/inc/API/Key/class-api-key.php:76
+#: admin/inc/CDN/Cache/class-caching-settings.php:120
+msgid "settings saved."
+msgstr ""
+
+#: admin/inc/CDN/Cache/class-caching-settings.php:20
+#: admin/inc/CDN/class-acceleration.php:19
+#: admin/inc/CDN/class-cdn-options.php:20
+#: admin/inc/Security/class-ddos_protection.php:24
+#: admin/inc/Security/class-firewall.php:222
+#: admin/inc/Security/class-https-settings.php:40
+msgid "Invalid security token sent."
+msgstr ""
+
+#: admin/inc/CDN/Cache/class-caching-settings.php:28
+#: admin/inc/CDN/class-acceleration.php:27
+#: admin/inc/CDN/class-cdn-options.php:28
+#: admin/inc/Security/class-ddos_protection.php:32
+#: admin/inc/Security/class-firewall.php:231
+#: admin/inc/Security/class-https-settings.php:48
+msgid "Invalid item sent."
+msgstr ""
+
+#: admin/inc/CDN/Cache/class-caching-settings.php:49
+msgid "There is a problem"
+msgstr ""
+
+#: admin/inc/CDN/Cache/class-caching-settings.php:95
+#: admin/inc/CDN/Cache/class-page-rules.php:48
+msgid "You are not allowed to use cache TTLs less than 60 Minutes in Basic plan. Please upgrade your CDN plan to Enterprise."
+msgstr ""
+
+#: admin/inc/CDN/Cache/class-page-rules.php:74
+msgid "Arvancloud CDN service settings for WordPress added."
+msgstr ""
+
+#: admin/inc/CDN/class-purge-cache.php:41
+msgid "There was a problem. please try again later."
+msgstr ""
+
+#: admin/inc/CDN/class-purge-cache.php:83
+msgid "Purging CDN cache request sent successfully"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:160
+msgid "Maximum Visitors"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:164
+msgid "Number Of Visitors"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:170
+msgid "Maximum Requests"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:174
+#: admin/inc/CDN/class-reports.php:187
+msgid "Saved"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:178
+msgid "All Requests"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:183
+msgid "Maximum Traffics"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:191
+msgid "All Traffics"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:196
+#: admin/views/reports/reports.php:157
+msgid "Saved Request"
+msgstr ""
+
+#: admin/inc/CDN/class-reports.php:201
+#: admin/views/reports/reports.php:106
+msgid "Saved Traffic"
+msgstr ""
+
+#: admin/inc/Security/class-ddos_protection.php:60
+msgid "You are not allowed to use custom ttl in Basic plan. Please upgrade your CDN plan to Growth."
+msgstr ""
+
+#: admin/inc/Security/class-ddos_protection.php:63
+msgid "You are not allowed to use 3 mode in Basic plan. Please upgrade your CDN plan to Professional."
+msgstr ""
+
+#: admin/inc/Security/class-firewall.php:54
+msgid "Successfully created new rule."
+msgstr ""
+
+#: admin/inc/Security/class-firewall.php:95
+msgid "Successfully updated the rule."
+msgstr ""
+
+#: admin/inc/Security/class-firewall.php:110
+msgid "Successfully removed the rule."
+msgstr ""
+
+#: admin/inc/Security/class-firewall.php:135
+msgid "Successfully updated priority of the rule"
+msgstr ""
+
+#: admin/views/about-us-display.php:8
+msgid "ArvanCloud, an international cloud services provider in Germany, offers various effective solutions for its customers worldwide. As one of the fastest-growing cloud solutions providers in the market, with an exceptional team, cutting-edge technologies and equipment, ArvancCloud aims to become a leader in the cloud industry. <br /> Equipped with a globally distributed network of more than 40 PoPs, ArvanCloud prides itself on innovative cloud solutions at the best price and highest quality. With ArvanCloud solutions, every customer can enjoy a fast, secure, reliable, and affordable cloud service. <br /> ArvanCloud has always provided the broadest set of services possible, to make a significant difference in the cloud services industry. Currently, its portfolio includes numerous cloud products, such as Cloud CDN, Manage DNS, Cloud Security, Video Streaming, Live Streaming Platform, Cloud Object Storage, and Platform as a service."
+msgstr ""
+
+#: admin/views/acceleration.php:26
+msgid "When this feature is enabled, ArvanCloud's edge servers will be shown the latest cache version of your site to the users if your website or web server goes down."
+msgstr ""
+
+#: admin/views/acceleration.php:34
+msgid "JavaScript Optimization"
+msgstr ""
+
+#: admin/views/acceleration.php:35
+#: admin/views/acceleration.php:45
+msgid "With enabling this feature the size of files will decrease by linearizing, summarizing, and removing comments."
+msgstr ""
+
+#: admin/views/acceleration.php:44
+msgid "CSS Optimization"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:12
+#: admin/views/cache/caching_settings.php:60
+#: admin/views/cache/caching_settings.php:206
+msgid "Off"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:13
+msgid "%s Second"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:14
+#: admin/views/cache/caching_settings.php:15
+#: admin/views/cache/caching_settings.php:16
+#: admin/views/cache/caching_settings.php:17
+#: admin/views/cache/caching_settings.php:18
+#: admin/views/security/ddos_protection.php:10
+msgid "%s Seconds"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:19
+msgid "%s Minute"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:20
+#: admin/views/cache/caching_settings.php:21
+#: admin/views/cache/caching_settings.php:22
+#: admin/views/cache/caching_settings.php:23
+#: admin/views/cache/caching_settings.php:24
+msgid "%s Minutes"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:25
+msgid "%s Hour"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:26
+#: admin/views/cache/caching_settings.php:27
+#: admin/views/cache/caching_settings.php:28
+#: admin/views/cache/caching_settings.php:29
+#: admin/views/security/ddos_protection.php:11
+msgid "%s Hours"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:30
+#: admin/views/security/ddos_protection.php:12
+msgid "%s Day"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:31
+#: admin/views/cache/caching_settings.php:32
+#: admin/views/cache/caching_settings.php:33
+#: admin/views/cache/caching_settings.php:34
+#: admin/views/cache/caching_settings.php:35
+#: admin/views/cache/caching_settings.php:199
+#: admin/views/cache/caching_settings.php:200
+msgid "%s Days"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:48
+msgid "By selecting the cache level, you can determine what content will be cached from your website in Arvan"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:62
+msgid "No content will be cached in Arvan. Requests will be sent directly to the origin servers"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:74
+msgid "Ignore QueryString"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:76
+msgid "If the URL of a file contains different query strings, only one copy of that file will be cached"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:88
+msgid "Apply QueryString"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:90
+msgid "If the Query Strings are different, different versions of the files will be cached in Arvan"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:102
+msgid "Apply QueryString + Cookie"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:104
+msgid "In addition to Query String, it also considers the values of cookies in caching files"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:106
+#: admin/views/security/https_settings.php:80
+msgid "Edit Settings"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:114
+msgid "QueryString + Cookie Settings"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:125
+msgid "Apply All QueryString"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:132
+msgid "Apply Http/Https"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:140
+msgid "Apply Special QueryString"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:146
+msgid "Custom Variable in Cookie"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:153
+#: admin/views/security/firewall_settings.php:169
+#: admin/views/security/https_settings.php:155
+msgid "Cancel"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:154
+#: admin/views/cache/caching_settings.php:214
+#: admin/views/security/firewall_settings.php:170
+#: admin/views/security/https_settings.php:156
+#: admin/views/settings-display.php:20
+msgid "Save"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:167
+msgid "Cache Expiration Time"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:172
+msgid "Cache Max Age"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:181
+msgid "Cache Max Age for Other Pages"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:192
+msgid "Browser Cache TTL"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:194
+msgid "Default"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:204
+msgid "Cache Pages With Set-cookie"
+msgstr ""
+
+#: admin/views/cache/caching_settings.php:207
+msgid "On"
+msgstr ""
+
+#: admin/views/components/footer.php:7
+msgid "CDN Plans"
+msgstr ""
+
+#: admin/views/components/footer.php:8
+msgid "Support"
+msgstr ""
+
+#: admin/views/components/footer.php:9
+msgid "Email Us"
+msgstr ""
+
+#: admin/views/components/header.php:10
+msgid "Status: "
+msgstr ""
+
+#: admin/views/components/header.php:18
+msgid "Plan: "
+msgstr ""
+
+#: admin/views/components/header.php:35
+msgid "Change API Key"
+msgstr ""
+
+#: admin/views/components/header.php:39
+msgid "Back to options"
+msgstr ""
+
+#: admin/views/components/header.php:45
+msgid "ArvanCloud panel →"
+msgstr ""
+
+#: admin/views/options-display.php:19
+msgid "CDN Options"
+msgstr ""
+
+#: admin/views/options-display.php:27
+#: admin/views/options-display.php:30
+msgid "Purge Cache"
+msgstr ""
+
+#: admin/views/options-display.php:31
+msgid "This will help you to get the full version of the new data from your web server by clearing the cache data from Arvan servers."
+msgstr ""
+
+#: admin/views/options-display.php:40
+msgid "Add WordPress Recomanded Page Rules"
+msgstr ""
+
+#: admin/views/options-display.php:41
+msgid "After activating of this feature, The cache in /wp-admin/* and /wp-login/* is ignored."
+msgstr ""
+
+#: admin/views/options-display.php:50
+msgid "Always Online"
+msgstr ""
+
+#: admin/views/options-display.php:51
+msgid "After activating of this feature, in case of website or webserver time out, the last saved version in arvancloud will be shown to the user. Arvancloud can only show the main page or dynamic pages if it has the permission to cache."
+msgstr ""
+
+#: admin/views/options-display.php:60
+msgid "Development Mode"
+msgstr ""
+
+#: admin/views/options-display.php:61
+msgid "Activating Development Mode will temporarily stop caching so that developers can work easier. Web optimization will also be disabled."
+msgstr ""
+
+#: admin/views/options-display.php:70
+msgid "Automatic cleaning"
+msgstr ""
+
+#: admin/views/options-display.php:71
+msgid "Automatically clear cache when a post or page or custom post type is edited or created or deleted."
+msgstr ""
+
+#: admin/views/reports/reports.php:9
+msgid "Traffics Report"
+msgstr ""
+
+#: admin/views/reports/reports.php:10
+msgid "Users Report"
+msgstr ""
+
+#: admin/views/reports/reports.php:11
+msgid "Requests"
+msgstr ""
+
+#: admin/views/reports/reports.php:15
+#: admin/views/reports/reports.php:16
+#: admin/views/reports/reports.php:17
+#: admin/views/reports/reports.php:18
+#: admin/views/reports/reports_status.php:6
+#: admin/views/reports/reports_status.php:7
+#: admin/views/reports/reports_status.php:8
+#: admin/views/reports/reports_status.php:9
+msgid "%s Hours Ago"
+msgstr ""
+
+#: admin/views/reports/reports.php:19
+#: admin/views/reports/reports_status.php:10
+msgid "%s Week Ago"
+msgstr ""
+
+#: admin/views/reports/reports.php:20
+#: admin/views/reports/reports_status.php:11
+msgid "%s Month Ago"
+msgstr ""
+
+#: admin/views/reports/reports.php:47
+#: admin/views/reports/reports_status.php:29
+msgid "Range Date "
+msgstr ""
+
+#: admin/views/reports/reports_status.php:46
+msgid "Response Time Diagram"
+msgstr ""
+
+#: admin/views/reports/reports_status.php:69
+msgid "Status Codes - Summary"
+msgstr ""
+
+#: admin/views/reports/reports_status.php:104
+msgid "Status Codes - By Time"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:9
+msgid "Automatic TTL"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:36
+#: admin/views/security/ddos_protection.php:41
+msgid "No Challenge"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:42
+msgid "All ArvanCloud servers protect against DDoS attacks automatically by using a combination of proven methods, which block manipulated packets and also block too many packets coming from the same source."
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:50
+#: admin/views/security/ddos_protection.php:55
+msgid "Cookie Challenge"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:56
+msgid "In addition to regular network layer protections, Arvancloud also targets and neutralizes bots that attack on layer 7 and simulate human behavior."
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:59
+#: admin/views/security/ddos_protection.php:85
+#: admin/views/security/ddos_protection.php:110
+msgid "Challenge Expiration Time"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:76
+#: admin/views/security/ddos_protection.php:81
+msgid "JS Challenge"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:82
+msgid "In addition to general protection for network layer and layer 7 bots, Arvancloud also uses encryption to detect and neutralize advanced layer 7 bots. In their first atttempt to connect, users will see a page for a moment which identifies them as humans."
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:101
+#: admin/views/security/ddos_protection.php:106
+msgid "Recaptcha"
+msgstr ""
+
+#: admin/views/security/ddos_protection.php:107
+msgid "In addition to general protection and proffesional advanced bot detection, ArvanCloud uses a captcha that users have to recognize images, to identify them as humans. Since the traffic is proccessing of this pages is done outside your website, this is the most advanced and efficient way to counter layer 7 DDoS attacks."
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:15
+msgid "You have reached the limit for the number of rules (10 rules) you can create at Basic plan. Check the Plans page for upgrades and more information."
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:26
+msgid "Firewall Rules"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:27
+msgid "+ Add new rule"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:39
+msgid "Name"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:40
+msgid "Description"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:42
+#: admin/views/security/firewall_settings.php:86
+msgid "Status"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:51
+msgid "Enable"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:82
+msgid "Create New Rule"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:83
+msgid "Edit Rule"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:87
+#: admin/views/security/firewall_settings.php:125
+#: admin/views/security/firewall_settings.php:134
+#: admin/views/security/firewall_settings.php:161
+msgid "Select"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:89
+msgid "Inactive"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:102
+msgid "Rule Name:"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:108
+msgid "Rule Description"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:114
+msgid "If request meet this conditions:"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:147
+msgid "+ OR"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:154
+msgid "Equal to:"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:160
+msgid "Then...<br>Select an Operator"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:162
+msgid "allow"
+msgstr ""
+
+#: admin/views/security/firewall_settings.php:163
+msgid "deny"
+msgstr ""
+
+#: admin/views/security/https_settings.php:12
+#: admin/views/security/https_settings.php:13
+#: admin/views/security/https_settings.php:14
+#: admin/views/security/https_settings.php:15
+#: admin/views/security/https_settings.php:16
+#: admin/views/security/https_settings.php:17
+#: admin/views/security/https_settings.php:18
+#: admin/views/security/https_settings.php:19
+msgid "%s Month"
+msgstr ""
+
+#: admin/views/security/https_settings.php:29
+msgid "HTTP Protocol will only be activated for the records with an enabled cloud icon. "
+msgstr ""
+
+#: admin/views/security/https_settings.php:47
+msgid "Activate HTTPS"
+msgstr ""
+
+#: admin/views/security/https_settings.php:48
+msgid "SSL/TLS secure protocol will be activated for your domain <br> <strong>To enable HTTPS on the domain, you need to replace your name servers with ArvanCloud NSs and enable the cloud icon for the domain.</strong>"
+msgstr ""
+
+#: admin/views/security/https_settings.php:60
+msgid "Set HTTPS as Default"
+msgstr ""
+
+#: admin/views/security/https_settings.php:61
+msgid "All HTTP requests will automatically be redirected to HTTPS."
+msgstr ""
+
+#: admin/views/security/https_settings.php:72
+msgid "Rewrite Files Based on HTTPS"
+msgstr ""
+
+#: admin/views/security/https_settings.php:73
+msgid "Resource files and website links will be converted to HTTPS. This will prevent mixed content error."
+msgstr ""
+
+#: admin/views/security/https_settings.php:83
+msgid "HSTS Protocol"
+msgstr ""
+
+#: admin/views/security/https_settings.php:84
+msgid "HSTS protocol improves the security of request transmission and prevents MITM attacks."
+msgstr ""
+
+#: admin/views/security/https_settings.php:98
+msgid "HSTS Settings"
+msgstr ""
+
+#: admin/views/security/https_settings.php:105
+msgid "HSTS or Security Transport Strict Http will improve the security of requests' transmission from HTTP to HTTPS and prevents MITM attacks."
+msgstr ""
+
+#: admin/views/security/https_settings.php:106
+msgid "Attention: Visitors' browsers will cache these settings. Please consider purging by cache expiration when applying HSTS settings."
+msgstr ""
+
+#: admin/views/security/https_settings.php:110
+msgid "I Understand and Accept the Rules."
+msgstr ""
+
+#: admin/views/security/https_settings.php:119
+msgid "Enable HSTS Protocol"
+msgstr ""
+
+#: admin/views/security/https_settings.php:123
+msgid "What is the duration in which the browser is required to show the HTTPS version of the website?"
+msgstr ""
+
+#: admin/views/security/https_settings.php:144
+msgid "Use HSTS for all Subdomains"
+msgstr ""
+
+#: admin/views/security/https_settings.php:151
+msgid "Prepare the Domain for the Search Engines"
+msgstr ""
+
+#: admin/views/settings-display.php:10
+msgid "Configure CDN API"
+msgstr ""
+
+#: admin/views/settings-display.php:18
+msgid "Get API Key"
+msgstr ""

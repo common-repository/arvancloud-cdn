@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'yekan-bakh';
+    font-style: normal;
+    font-weight: 400;
+    src: url('../fonts/yekan-bakh-regular.eot');
+	src: url('../fonts/yekan-bakh-regular.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/yekan-bakh-regular.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/yekan-bakh-regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'yekan-bakh';
+    font-style: normal;
+    font-weight: bold;
+    src: url('../fonts/yekan-bakh-bold.eot');
+	src: url('../fonts/yekan-bakh-bold.eot?#iefix') format('embedded-opentype'),  /* IE6-8 */
+		 url('../fonts/yekan-bakh-bold.woff') format('woff'),  /* FF3.6+, IE9, Chrome6+, Saf5.1+*/
+		 url('../fonts/yekan-bakh-bold.ttf') format('truetype');
+}
+
+.arvan-status > div h2,
+.acs-footer,
+.toplevel_page_arvancloud-cdn .wrap > h1,
+#toplevel_page_arvancloud-cdn,
+.arvan-head,
+.arvan-card > h2,
+.cdn-option .detail-container > h3,
+.arvan-wrapper,
+#side-modal,
+#side-modal h3,
+.select2-results__option,
+.detail-container h3,
+.cdn-report-header,
+.ar-wrap,
+#toast-container,
+.ar-wrap h1 {
+    font-family: 'yekan-bakh';
+}
+
+.arvan-wrapper p,
+#toast-container {
+    font-size: 118%;
+}
+
+.cdn-report-head,
+.cdn-report-head .cdn-report-head__title,
+.report-labels,
+.acs-footer .acs-footer-links ul li a {
+    font-size: 110%;
+}
